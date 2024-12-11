@@ -1,0 +1,29 @@
+body{
+    background: whitesmoke;
+    height: 100vh;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 0px 15px;
+}
+.all{
+ display: flex;
+ gap: 10px;
+}
+.sid{
+    width: 22px;
+}
+@media (min-width: 768px){
+.sid{
+ display: none;
+}
+}
+@media (max-width: 768px){
+.all{
+ display: none;
+}
+}
